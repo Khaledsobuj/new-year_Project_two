@@ -3,9 +3,102 @@
     padding: 0;
 }
 
+
 .work-sans-primary {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* share ‍stayle */
+.btn {
+    background-color: #F15B22;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    
+   
+}
+
+.header-section {
+    max-width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url('../images/banner/banner1.png');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid tomato; */
+}
+
+.header-wrp {
+    width: 525px;
+    /* border: 1px solid goldenrod; */
+    margin-right: 230px;
+    text-align: right;
+  
+
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    text-align: right;
+    padding: 30px;
+}
+
+.header-description {
+    font-size: 16px;
+    color: #444343;
+    padding: 30px;
+    text-align: right;
+}
+/* ======================= */
+.main-section{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top:50px;
+    border: 1px solid tomato;
+}
+.my-failures{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faiures-img{
+    width: 580px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    padding: 40px;
+   }
+   .faiures-img img{
+    position: relative;
+    z-index:2;
+    max-width: 100%;
+    height: auto;
+   }
+   .faiures-img::before{
+    content: "";
+    position: absolute;
+    top: 61%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    width: 560px;
+    height: 540px;
+    border-radius: 100%;
+    background-image: url('../images/gradient3.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+   }
+
+   /* উপরের কোড আরো ভালো ভাবে বুঝতে হবে এবং প্যাক্টিস করতে হবে */
+
+.faiures-item{
+    width:420px ;
 }
