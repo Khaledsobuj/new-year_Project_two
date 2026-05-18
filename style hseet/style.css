@@ -11,7 +11,7 @@
     font-style: normal;
 }
 
-/* share ‍stayle */
+
 .btn {
     background-color: #F15B22;
     color: #fff;
@@ -30,12 +30,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* border: 1px solid tomato; */
+
 }
 
 .header-wrp {
     width: 525px;
-    /* border: 1px solid goldenrod; */
+
     margin-right: 230px;
     text-align: right;
 
@@ -57,57 +57,13 @@
     text-align: right;
 }
 
-/* ======================= */
-/* .main-section{
-    width: 1140px;
-    margin: 0 auto;
-    margin-top:50px;
-    border: 1px solid tomato;
-}
-.my-failures{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.faiures-img{
-    width: 580px;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    padding: 40px;
-   }
-   .faiures-img img{
-    position: relative;
-    z-index:2;
-    max-width: 100%;
-    height: auto;
-   }
-   .faiures-img::before{
-    content: "";
-    position: absolute;
-    top: 61%;
-    left: 51%;
-    transform: translate(-50%,-50%);
-    width: 560px;
-    height: 540px;
-    border-radius: 100%;
-    background-image: url('../images/gradient3.png');
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-   }
 
-   
-
-.faiures-item{
-    width:420px ;
-} */
-
-.main-div{
+.main-div {
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid tomato; */
+    margin-bottom:50px;
+
 }
 
 .main-section {
@@ -119,7 +75,6 @@
 .faiures-img {
     width: 50%;
     margin-right: 10px;
-    border-right: 2px solid tomato;
 }
 
 .faiures-img {
@@ -153,7 +108,7 @@
 }
 
 .faiures-item {
-    width: 50%;
+    width: 41%;
     margin: 20px;
     padding: 20px;
 }
@@ -181,70 +136,128 @@
 }
 
 .my-plans {
-    
+
     width: 100%;
     margin-top: 50px;
 
 }
-.plans-items{
+
+.plans-items {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
-.item{
+
+.item {
     text-align: center;
 }
 
 .plans-title {
     text-align: center;
 }
-.plans-items-title{
+
+.plans-items-title {
     font-size: 30px;
     font-weight: bold;
     color: #151414;
 }
-.plans-item-description{
+
+.plans-item-description {
     font-size: 16px;
     color: #444343;
 }
-.bottom-banner{
+
+.bottom-banner {
     width: 100%;
     height: 300px;
     margin-top: 120px;
-    background-image: url('../images/watch.png'),url('../images/gradient3.png');
+    background-image: url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: center, top left;
-    background-size: cover ,;
+    background-size: cover, ;
     display: flex;
     align-items: center;
-    
-}
-.content-wrap{
-    width: 30%;
-    padding-left: 40px;
-}
-.bttom-bannertitle{
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
 
 }
-.footer-section{
-    background-color: #151414;
-    margin-top: 130px;
-    padding: 20px;
+
+.content-wrap {
+    width: 30%;
+    padding-left: 65px;
 }
-.footer-wraper{
+
+.bttom-bannertitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+   
+
+}
+
+.footer-section {
+    max-width: 1600px;
+    height: 570px;
+    background-color: #151414;
+    /* margin-top: 130px; */
+    margin: 0 auto;
+     padding: 30px;
+
+}
+
+.footer-wraper {
     width: 1160px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+   
 }
-.footer-left{
+
+.footer-left {
     width: 50%;
     color: #fff;
+  /* margin-top: 50px; */
+  padding:230px 30px;
+  /* border: 2px solid #fff; */
 }
-.fotter-right{
+.footer-title{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.footer-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-img{
+    margin-top: 30px;
+    padding: 0px 17px;
+}
+.fotter-right {
     width: 50%;
     color: #fff;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* border: 2px solid #fff; */
+}
+.fotter-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.footer-input{
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+.footer-btn{
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #F15B22;
+    font-size: 18px;
+    border-radius: 10px;
+
 }
