@@ -75,7 +75,7 @@
 .main-div {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -151,7 +151,8 @@
 .my-plans {
 
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
+    
 
 }
 
@@ -159,6 +160,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
 }
 
 .item {
@@ -209,11 +211,11 @@
 
 .footer-section {
     max-width: 1600px;
-    height: 570px;
+    height: auto;
     background-color: #151414;
     /* margin-top: 130px; */
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
 
 }
 
@@ -290,7 +292,10 @@
 @media screen and (max-width:576px) {
 
     .header-section,
-    .main-section {
+    .main-section,
+    .plans-items,
+    .bottom-banner,
+    .footer-wraper {
         flex-direction: column;
 
     }
@@ -314,28 +319,57 @@
     .header-img {
         display: block;
     }
-.faiures-img{
-    width: 75%;
-}
-.faiures-img::before {
-    content: "";
-    position: absolute;
-    top: 48%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    height: 88%;
-    border-radius: 100%;
-    background-image: url(../images/gradient3.png);
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-}
-.faiures-item{
-    margin: 0;
-    padding: 0;
-    width: 90%;
-}
+
+    .faiures-img {
+        width: 75%;
+    }
+
+    .faiures-img::before {
+        content: "";
+        position: absolute;
+        top: 48%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 88%;
+        border-radius: 100%;
+        background-image: url(../images/gradient3.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+    }
+
+    .faiures-item {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+    .bottom-banner{
+        margin-top: 20px;
+       
+    }
+    .content-wrap{
+        width: 80%;
+        text-align: center;
+    }
+    
+    
+    .footer-section{
+        height: auto;
+    }
+    .footer-wraper, .footer-left,.fotter-right{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .fotter-right button, .btn_bottombanner{
+        width: 30%;
+        margin: 15px auto;
+    }
+    .main-div{
+        margin-bottom: 0px;
+    }
 
 
 }
